@@ -54,7 +54,11 @@ nifty trick we use in (Rack)[http://github.com/rack/rack]
 Use
 ---
 
-    require 'swirl/ec2/em'
+    $ gem install em-swirl
+    $ vim something.rb
+
+
+    require 'em-swirl'
 
     EM.run do
       ec2 = Swirl::EC2.new
