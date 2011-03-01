@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
 
   s.name = 'em-swirl'
-  s.version = '0.1.0'
-  s.date = '2011-02-22'
+  s.version = '0.1.1'
+  s.date = '2011-02-28'
 
   s.description = "An evented, version agnostic EC2 ruby driver"
   s.summary     = s.description
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   # = MANIFEST =
 
   s.extra_rdoc_files = %w[README.md LICENSE]
-  s.add_dependency 'swirl', '>= 0.6.1'
+  s.add_dependency 'swirl', '>= 0.7.0'
   s.add_dependency 'em-http-request', '>= 0.3.0'
 
   s.has_rdoc = true
