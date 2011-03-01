@@ -1,4 +1,4 @@
-require 'swirl/ec2'
+require 'swirl/aws'
 require 'em-http'
 
 module Swirl
